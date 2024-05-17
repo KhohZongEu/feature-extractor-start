@@ -5,7 +5,6 @@ redCount = blueCount = 0
 function setup() {
   // Tells p5 to not automatically create a canvas element.
   noCanvas()
-
   // Starts capturing a video feed from the webcam
   video = createCapture(VIDEO)
 
